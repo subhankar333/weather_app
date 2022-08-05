@@ -68,7 +68,7 @@ function showWeatherReport(weather) {
 function dateManage(datearg) {
     let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
-    let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "Ocober", "November", "December"];
+     let months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
     let year = datearg.getFullYear();
     let month = months[datearg.getMonth()];
