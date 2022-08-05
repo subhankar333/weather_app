@@ -70,16 +70,11 @@ function dateManage(datearg) {
 
      let months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
-//     let year = datearg.getFullYear();
-//     let month = months[datearg.getMonth()];
-//     let date = datearg.getDate();
-//     let day = days[datearg.getDay()];
+    let year = datearg.getFullYear();
+    let month = months[datearg.getMonth()];
+    let date = datearg.getDate();
+    let day = days[datearg.getDay()];
 
-//     return `${day} , ${date} ${month} , ${year}`;
-    let year = dateArg.getFullYear();
-    let month = months[dateArg.getMonth()];
-    let date = dateArg.getDate();
-    let day = days[dateArg.getDay()];
-    // console.log(year+" "+date+" "+day+" "+month);
-    return `${date} ${month} (${day}) , ${year}`
+    return `${day} , ${date} ${month} , ${year}`;
+    
 }
